@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OHRMLogin Test Suite">
+    <test verbose="2" preserve-order="true" name="OHRMLogin" parallel="methods" thread-count="5">
+        <classes>
+            <class name="tests.C05_OHRMLogin">
+                <methods>
+                    <include name="positiveLoginTest"/>
+                    <include name="NegativeLoginTest1"/>
+                    <include name="NegativeLoginTest2"/>
+                    <include name="NegativeLoginTest3"/>
+                    <include name="NegativeLoginTest4"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
