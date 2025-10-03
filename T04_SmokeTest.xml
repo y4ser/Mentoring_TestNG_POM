@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" verbose="5">
+    <test preserve-order="true" name="smokeTest">
+        <classes>
+            <class name="tasks.smokeTest.T04_CheckoutPage"> </class>
+            <class name="tasks.smokeTest.T04_HomePage"> </class>
+            <class name="tasks.smokeTest.T04_ProductPage"> </class>
+        </classes>
+    </test>
+</suite>
